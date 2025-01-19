@@ -27,6 +27,16 @@
     background-color: rgba(255, 144, 14, 0.10);
 }
 
+.btn-primary{
+    background-color: #FF900E;
+    color: #ffffff;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
 /* header styles */
 
 /* navbar styles */
@@ -55,4 +65,29 @@
 .navbar, .banner{
     max-width: 1440px;
     margin: 0px auto;
+}
+
+
+/* banner styles */
+.banner-content{
+    max-width: 862px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.banner-img{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 45px;
 }
