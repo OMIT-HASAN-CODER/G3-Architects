@@ -149,7 +149,6 @@ main{
     padding-left: 21px;
     font-size: 2.8rem;
     font-weight: 700;
-    /* margin-top: 39px; */
     margin-bottom: 24px;
     max-width: 468px;
 }
@@ -251,7 +250,8 @@ main{
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin: 0px 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .fact-card-content{
@@ -295,6 +295,8 @@ main{
 .sponsors-companies{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    
 }
 .sponsors-companies img{
     filter: grayscale(100%);
@@ -305,15 +307,15 @@ main{
 .footer{
     max-width: 1440px;
     border-radius: 8px;
-    margin: 130px 240px 216px 240px;
+    margin: 130px auto;
     background-color: #FFF4E7;
-    padding: 39px 390px;
     text-align: center;
 }
 
 .footer-description{
     font-size: 1.25rem;
     font-weight: 400;
+    padding: 39px 410px;
 }
 
 
@@ -348,6 +350,9 @@ main{
 
     .footer{
         margin: 130px 20px 216px 20px;
+    }
+
+    .footer-description{
         padding: 39px 20px;
     }
 
@@ -381,6 +386,9 @@ main{
 
     .footer{
         margin: 130px 20px 216px 20px;
+    }
+
+    .footer-description{
         padding: 39px 20px;
     }
 
